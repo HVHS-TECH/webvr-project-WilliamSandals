@@ -8,9 +8,10 @@
   </head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
-      
-       <!-- Put this inside the <a-scene> -->
+      <a-sky src="castle1.jpg"></a-sky>
+      <!-- Photo Credit: Thanks To 
+       https://sites.google.com/hvhs.school.nz/technology/DTEC/10DTEC/virtual-reality/photospheres -->
+
       <a-entity 
       ply-model="src:castle.ply"
       position="0 -2 -2"
@@ -33,6 +34,13 @@
       position="-18 -1.4 -1"
       rotation="-90 -135 0"
       ></a-box>
+
+      <a-entity 
+      ply-model="src:ocean.ply"
+      position="-45 -11 -25"
+      rotation="-90 -90 0"
+      scale="10 15 5"
+      ></a-entity>
     </a-scene>
   </body>
 </html>
